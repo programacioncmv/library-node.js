@@ -1,0 +1,165 @@
+/* Estilos adicionales para el componente Books */
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid responsivo */
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.book {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.book img.cover-image {
+  width: 100%; /* Ajustar el ancho al contenedor */
+  max-height: 300px; /* Altura máxima de la imagen */
+  border-top-left-radius: 10px; /* Redondear las esquinas */
+  border-top-right-radius: 10px;
+}
+
+.book h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-top: 10px; /* Ajustar margen */
+  margin-bottom: 10px;
+}
+
+.book p {
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.book span {
+  display: block;
+  font-weight: bold;
+  color: #ff4500; /* Color naranja */
+  margin-bottom: 10px;
+}
+
+.delete, .update {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Color azul */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete:hover, .update:hover {
+  background-color: #0056b3; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilo para el botón de agregar nuevo libro */
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Color verde */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos adicionales para el componente Books */
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.book {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.book img.cover-image {
+  width: 100%;
+  max-height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.book h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.book p {
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.book span {
+  display: block;
+  font-weight: bold;
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+
+.delete, .update {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete:hover, .update:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el banner */
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Estilo para los botones de navegación en el banner */
+.banner button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Color verde */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #218838; /* Cambio de color al pasar el cursor */
+}
